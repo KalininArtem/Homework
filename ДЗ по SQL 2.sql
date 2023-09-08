@@ -51,11 +51,11 @@ CREATE TABLE IF NOT EXISTS Genre_Executor
 	Collection_id SERIAL PRIMARY KEY,
 	Name CHARACTER VARYING (30) UNIQUE,
  	Year_of_issue INTEGER CHECK (Year_of_issue < 9999)
- )
+ );
 
  CREATE TABLE IF NOT EXISTS Collection_Song
  (
 	CS_id SERIAL PRIMARY KEY,
 	Collection_id INTEGER REFERENCES Collection(Collection_id),
 	Song_id INTEGER	REFERENCES Song(Song_id)
- )
+ );

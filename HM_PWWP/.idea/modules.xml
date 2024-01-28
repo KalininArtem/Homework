@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/HM_PWWP.iml" filepath="$PROJECT_DIR$/.idea/HM_PWWP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../Python/.idea/Python.iml" filepath="$PROJECT_DIR$/../../Python/.idea/Python.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../.idea/Python Homework.iml" filepath="$PROJECT_DIR$/../.idea/Python Homework.iml" />
+      <module fileurl="file://$USER_HOME$/Documents/DB/work/.idea/work.iml" filepath="$USER_HOME$/Documents/DB/work/.idea/work.iml" />
+    </modules>
+  </component>
+</project>

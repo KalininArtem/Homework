@@ -1,11 +1,10 @@
-import psycopg2
-conn = psycopg2.connect(
-    database='clientdb',
-    user='postgres',
-    password='1111'
-)
+    import psycopg2
+    conn = psycopg2.connect(
+        database='clientdb',
+        user='postgres',
+        password='1111'
+    )
 conn.set_session(autocommit=True)
-cur = conn.cursor()
 
 def create_db(cursor):
     cursor.execute("DROP TABLE client, phone")
